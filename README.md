@@ -15,5 +15,18 @@ One approach to building the website is with the R package
 remotes::install_github("r-lib/hugodown")
 ```
 
+And then to preview the site use:
+
+```r
+hugodown::hugo_start()
+```
+
+And to build the site to `docs/`
+
+```r
+hugodown::hugo_build(dest = "docs")
+```
+
+
 Any changes to the website layout needs to be done in the HTML files
 in `layout` and with the CSS in the `static/main.css` file.
