@@ -1,0 +1,36 @@
+baseurl = "https://merely-useful.github.io/"
+languageCode = "en-us"
+title = "Merely Useful"
+publishDir = "docs/"
+theme = "hugo-lithium-theme"
+googleAnalytics = ""
+disqusShortname = ""
+disableKinds = ["taxonomy", "taxonomyTerm", "section", "404"]
+
+[permalinks]
+    post = "/:year/:month/:day/:title/"
+    page = "/:title/"
+
+[[menu.main]]
+    name = ""
+    url = "https://github.com/merely-useful"
+    pre = "<i class='fab fa-github'></i>"
+    weight = 2
+
+[params]
+    mainSections = ["page"]
+
+    description = "Teaching material for learning R and Python, from Novice to Research Software Engineer."
+
+    # path to the favicon, under "static"
+    favicon = "favicon.ico"
+
+    [params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+
+    [params.icon]
+    url = "favicon.ico"
+
