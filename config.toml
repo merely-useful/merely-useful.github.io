@@ -1,7 +1,6 @@
 baseurl = "https://merely-useful.github.io/"
 languageCode = "en-us"
 title = "Merely Useful"
-publishDir = "docs/"
 theme = "hugo-lithium-theme"
 googleAnalytics = ""
 disqusShortname = ""
