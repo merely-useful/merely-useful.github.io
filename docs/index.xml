@@ -5,10 +5,6 @@
     <link>https://merely-useful.github.io/</link>
     <description>Recent content on Merely Useful</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://merely-useful.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://merely-useful.github.io/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
